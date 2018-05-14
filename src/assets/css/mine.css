@@ -1,0 +1,225 @@
+/*mine的css公共样式*/
+
+em,
+i,
+b {
+    font-style: normal;
+    font-weight: normal;
+}
+
+button {
+    cursor: pointer;
+    outline: none;
+}
+
+
+/*标题公共样式*/
+
+.mineH4 {
+    font-size: 18px;
+    height: 52px;
+    line-height: 52px;
+    border-bottom: 1px solid #DBDADA;
+    padding-left: 30px;
+    font-weight: normal;
+}
+
+
+/*表格公共样式*/
+
+.mineTable .ivu-table th,
+.mineTable .ivu-table td {
+    text-align: center;
+}
+
+.mineTable th {
+    background: #0D88EB;
+    color: #fff;
+    font-weight: normal;
+}
+
+.mineTable td {
+    padding: 10px 0;
+}
+
+.mineTable .ivu-table-cell {
+    padding-left: 7px;
+    padding-right: 7px;
+}
+
+.mineTable .ivu-page {
+    float: right;
+    margin-top: 40px;
+}
+
+
+/*弹窗公共样式*/
+
+.vertical-center-modal {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.vertical-center-modal .ivu-modal {
+    top: 0;
+}
+
+.ivu-modal-content {
+    border-radius: 4px;
+    overflow: hidden;
+}
+
+.vertical-center-modal .ivu-modal-header {
+    background: #0D88EB;
+}
+
+.vertical-center-modal .ivu-modal-header-inner {
+    font-size: 18px;
+    font-weight: normal;
+    color: #FFFFFF;
+}
+
+.vertical-center-modal .ivu-modal-close .ivu-icon-ios-close-empty {
+    color: #fff;
+}
+
+.ivu-modal-body {
+    padding: 40px 30px 20px;
+}
+
+.ivu-modal-body img {
+    float: left;
+    width: 45px;
+    vertical-align: middle;
+}
+
+.ivu-modal-body p {
+    overflow: hidden;
+    margin-left: 70px;
+    color: #666666;
+    font-size: 14px;
+    line-height: 21px;
+}
+
+.ivu-modal-body p b {
+    color: #FF8001;
+}
+
+.ivu-modal-body .repayment {
+    color: #666;
+    line-height: 30px;
+}
+
+.ivu-modal-body .repayment span,
+.ivu-modal-body .repayment input {
+    color: #333;
+}
+
+.ivu-modal-body .repayment span {
+    display: inline-block;
+    margin-left: 5px;
+    position: relative;
+}
+
+.ivu-modal-body .repayment span img {
+    position: absolute;
+    width: 16px;
+    right: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    cursor: pointer;
+}
+
+.ivu-modal-body .repayment .periodsDetail {
+    position: absolute;
+    width: 378px;
+    height: 100px;
+    border: solid 1px #EEF1F9;
+}
+
+.ivu-modal-body .repayment .detailChildren {
+    float: left;
+    width: 50%;
+    padding-left: 10px;
+    line-height: 33.33px;
+}
+
+.ivu-modal-body .repayment .detailChildren em {
+    display: inline-block;
+    width: 75px;
+}
+
+.ivu-modal-body .repayment .periodsDetail:before,
+.ivu-modal-body .repayment .periodsDetail:after {
+    position: absolute;
+    content: "";
+    border: solid 8px transparent;
+    top: -16px;
+    left: 10px;
+}
+
+.ivu-modal-body .repayment .periodsDetail:before {
+    border-bottom-color: #EEF1F9;
+}
+
+.ivu-modal-body .repayment .periodsDetail:after {
+    top: -15px;
+    border-bottom-color: #fff;
+}
+
+.ivu-modal-body .repayment input {
+    width: 317px;
+    height: 30px;
+    border: 1px solid #EEF1F9;
+    border-radius: 4px;
+    outline: none;
+    text-indent: 10px;
+}
+
+.ivu-modal-body .repayment input[disabled='disabled'] {
+    background: transparent;
+}
+
+.ivu-modal-body .repayment li {
+    margin-bottom: 20px;
+}
+
+.ivu-modal-body .repayment li:nth-child(3) {
+    margin-top: 120px;
+}
+
+.ivu-modal-body .repayment li.falseHints {
+    width: 220px;
+    height: 30px;
+    text-align: center;
+    line-height: 30px;
+    background: #F8FAFC;
+    border: 1px solid #EEF1F9;
+    border-radius: 4px;
+    font-size: 12px;
+    color: #FC7231;
+    margin: 0 auto;
+}
+
+.ivu-modal-footer {
+    border-top: 0;
+    text-align: left;
+}
+
+.ivu-modal-footer .default {
+    padding: 0 0 50px 100px;
+}
+
+.ivu-modal-footer .borrow {
+    text-align: center;
+}
+
+.ivu-modal-footer button,.ivu-modal-footer button:hover {
+    width: 140px;
+    height: 30px;
+    background: #FF8001;
+    border-radius: 4px;
+    border: 0;
+    color: #fff;
+}
